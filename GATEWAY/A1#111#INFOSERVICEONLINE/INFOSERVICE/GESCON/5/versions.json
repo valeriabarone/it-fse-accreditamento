@@ -2,8 +2,9 @@
   "appVendor": "INFOSERVICE DI FRANCESCO LEO",
   "appID": "GESCON",
   "appVersion": "5",
-  "ts": "2026-03-25T12:21:00Z",
+  "ts": "2026-05-18T15:11:00Z",
    "equiv_releases": [
    "WEB",
-   "LITE"]
+   "LITE",
+   "6"]
 }

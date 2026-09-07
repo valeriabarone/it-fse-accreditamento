@@ -1,0 +1,377 @@
+%PDF-1.6
+%ˆ‰¸ﬂ
+1 0 obj
+<<
+/Type /Catalog
+/Version /1.6
+/Pages 2 0 R
+/Names 9 0 R
+>>
+endobj
+7 0 obj
+<<
+/Length 181
+/Filter /FlateDecode
+>>
+stream
+xú-éMÇ@ÑÔ˚+ÜNaÎíEﬁ˙ÇÇ†˜–¡À÷æ¶ï´∏Î¡üDóÅy`fKbû≈à®Ò"J@'°¨§PY98]∑FQç1÷'[Ó¥gÉ˚ÄIvU∏Ï3úıõ;‰A—÷y8AcSd]5‚jπNì$ï1vá+AIµA/AS≠k˘··KÜˆ^? ö≠w3MW6˝«†hzk†±€op;ü˛WÏk‹±â~™â/÷;‚
+endstream
+endobj
+13 0 obj
+<<
+/Length 16412
+/Type /EmbeddedFile
+/Subtype /application#2Fxml
+/Params 14 0 R
+>>
+stream
+<?xml version="1.0" encoding="UTF-8"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3" xmlns:sdtc="urn:hl7-org:sdtc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:hl7-org:v3 CDA.xsd">
+  <realmCode code="IT" />
+  <typeId root="2.16.840.1.113883.1.3" extension="POCD_MT000040UV02" />
+  <templateId root="2.16.840.1.113883.2.9.10.1.18.1" extension="1.0" assigningAuthorityName="HL7 Italia" />
+  <id root="2.16.840.1.113883.2.9.4.1.3" extension="CCE-TEST-CASO1" assigningAuthorityName="Istituto Santa Chiara" />
+  <code code="100971-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Cartella clinica" />
+  <title>Cartella Clinica</title>
+  <effectiveTime value="20250509103000+0100" />
+  <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25" codeSystemName="HL7 Confidentiality" displayName="N" />
+  <languageCode code="it-IT" />
+  <setId root="2.16.840.1.113883.2.9.4.1.3" extension="CCE-TEST-CASO1" />
+  <versionNumber value="1" />
+  <recordTarget>
+    <patientRole>
+      <id root="2.16.840.1.113883.2.9.4.3.2" extension="RSSMRA22A01A399Z" />
+      <patient>
+        <name>
+          <given>Maria</given>
+          <family>Rossi</family>
+        </name>
+        <administrativeGenderCode code="F" codeSystem="2.16.840.1.113883.5.1" codeSystemName="HL7 AdministrativeGender" displayName="F" />
+        <birthTime value="19850315" />
+        <birthplace>
+          <place>
+            <addr use="H">
+              <country>100</country>
+              <city>Roma</city>
+              <censusTract>058091</censusTract>
+            </addr>
+          </place>
+        </birthplace>
+      </patient>
+    </patientRole>
+  </recordTarget>
+  <author>
+    <time value="20250509103000+0100" />
+    <assignedAuthor>
+      <id root="2.16.840.1.113883.2.9.4.3.2" extension="PROVAX00X00X000Y" />
+      <telecom use="WP" value="tel:0612345678" />
+      <assignedPerson>
+        <name>
+          <given>Mario</given>
+          <family>Bianchi</family>
+        </name>
+      </assignedPerson>
+    </assignedAuthor>
+  </author>
+  <custodian>
+    <assignedCustodian>
+      <representedCustodianOrganization>
+        <id root="2.16.840.1.113883.2.9.4.1.3" extension="160202" />
+        <name>Istituto Santa Chiara</name>
+      </representedCustodianOrganization>
+    </assignedCustodian>
+  </custodian>
+  <legalAuthenticator>
+    <time value="20250509103000+0100" />
+    <signatureCode code="S" />
+    <assignedEntity>
+      <id root="2.16.840.1.113883.2.9.4.3.2" extension="PROVAX00X00X000Y" />
+      <assignedPerson>
+        <name>
+          <given>Mario</given>
+          <family>Bianchi</family>
+        </name>
+      </assignedPerson>
+    </assignedEntity>
+  </legalAuthenticator>
+  <componentOf typeCode="COMP">
+    <encompassingEncounter>
+      <id root="2.16.840.1.113883.2.9.4.1.3" extension="ENC-CASO1-001" />
+      <code code="IMP" codeSystem="2.16.840.1.113883.5.4" />
+      <effectiveTime value="20250507090000+0100" />
+      <location>
+        <healthCareFacility>
+          <id root="2.16.840.1.113883.2.9.4.1.6" extension="REP001" />
+          <serviceProviderOrganization>
+            <id root="2.16.840.1.113883.2.9.4.1.2" extension="160202" />
+            <name>Istituto Santa Chiara</name>
+          </serviceProviderOrganization>
+        </healthCareFacility>
+      </location>
+    </encompassingEncounter>
+  </componentOf>
+  <component>
+    <structuredBody>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.3.1937.777.63.10.848" />
+          <code code="11502-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Referto di laboratorio" />
+          <title>Documenti esterni correlati</title>
+          <entry>
+            <act classCode="ACT" moodCode="EVN">
+              <templateId root="2.16.840.1.113883.3.1937.777.63.10.850" />
+              <code code="55107-7" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="External documents" />
+              <reference typeCode="XCRPT">
+                <externalDocument classCode="DOCCLIN" moodCode="EVN">
+                  <id root="2.16.840.1.113883.2.9.2.120.4.4" extension="REF-LAB-001" />
+                </externalDocument>
+              </reference>
+            </act>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.3.1937.777.63.10.851" />
+          <code code="47039-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Ricovero, anamnesi e visita medica" />
+          <title>Inquadramento Clinico</title>
+          <text>
+            <paragraph>Paziente ricoverata per accertamenti. Anamnesi: ipertensione arteriosa in terapia. Esame obiettivo: parametri vitali nella norma.</paragraph>
+          </text>
+          <author typeCode="AUT" contextControlCode="OP">
+            <time value="20250507090000+0100" />
+            <assignedAuthor>
+              <id root="2.16.840.1.113883.2.9.4.3.2" extension="PROVAX00X00X000Y" />
+              <assignedPerson>
+                <name>
+                  <given>Mario</given>
+                  <family>Bianchi</family>
+                </name>
+              </assignedPerson>
+            </assignedAuthor>
+          </author>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.3.1937.777.63.10.844" />
+          <code code="67851-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Ricovero, nota di valutazione" />
+          <title>Accertamento Assistenziale</title>
+          <text>
+            <paragraph>Valutazione infermieristica all'ingresso: paziente collaborante, autonoma nelle ADL.</paragraph>
+          </text>
+          <author typeCode="AUT" contextControlCode="OP">
+            <time value="20250507090000+0100" />
+            <assignedAuthor>
+              <id root="2.16.840.1.113883.2.9.4.3.2" extension="VRDMRC67T20I257E" />
+              <assignedPerson>
+                <name>
+                  <given>Anna</given>
+                  <family>Verdi</family>
+                </name>
+              </assignedPerson>
+            </assignedAuthor>
+          </author>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.3.1937.777.63.10.852" />
+          <code code="48765-2" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Allergies and adverse reactions Document" />
+          <title>Allergie e Intolleranze</title>
+          <text>
+            <paragraph>Allergia a penicillina documentata. Intolleranza al lattosio.</paragraph>
+          </text>
+          <author typeCode="AUT" contextControlCode="OP">
+            <time value="20250507090000+0100" />
+            <assignedAuthor>
+              <id root="2.16.840.1.113883.2.9.4.3.2" extension="PROVAX00X00X000Y" />
+              <assignedPerson>
+                <name>
+                  <given>Mario</given>
+                  <family>Bianchi</family>
+                </name>
+              </assignedPerson>
+            </assignedAuthor>
+          </author>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.3.1937.777.63.10.853" />
+          <code code="84172-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Interdisciplinary Hospital Plan of care note" />
+          <title>Processo Terapeutico</title>
+          <text>
+            <paragraph>Terapia farmacologica: Ramipril 5mg/die, Furosemide 25mg/die. Terapia infusionale: soluzione fisiologica 500ml.</paragraph>
+          </text>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.3.1937.777.63.10.854" />
+          <code code="8716-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Vital signs note" />
+          <title>Parametri</title>
+          <text>
+            <paragraph>PA: 130/80 mmHg. FC: 72 bpm. Temp: 36.5 C. SpO2: 98%. Peso: 65 kg. Altezza: 165 cm.</paragraph>
+          </text>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.3.1937.777.63.10.855" />
+          <code code="83734-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Physical medicine and rehabilitation Interdisciplinary Plan of care note" />
+          <title>Piano Riabilitativo Individuale</title>
+          <text>
+            <paragraph>Piano riabilitativo individuale: fisioterapia respiratoria quotidiana, mobilizzazione precoce.</paragraph>
+          </text>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.3.1937.777.63.10.856" />
+          <code code="101541-1" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Multidisciplinary Comprehensive plan of care note" />
+          <title>Piano Assistenziale Individuale</title>
+          <text>
+            <paragraph>Piano assistenziale individuale: monitoraggio parametri vitali ogni 4 ore, gestione accessi venosi.</paragraph>
+          </text>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.3.1937.777.63.10.865" />
+          <code code="59284-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Consent Document" />
+          <title>Consensi</title>
+          <text>
+            <paragraph>Consenso informato al trattamento sanitario acquisito e firmato dal paziente.</paragraph>
+          </text>
+          <entry>
+            <observationMedia moodCode="EVN" classCode="OBS">
+              <templateId root="2.16.840.1.113883.3.1937.777.63.10.866" />
+              <value xsi:type="ED" mediaType="application/pdf" representation="B64">JVBERi0xLjQKJcOkw7zDtsOfCjIgMCBvYmoKPDwvTGVuZ3RoIDMgMCBSL0ZpbHRlci9GbGF0ZURlY29kZT4+CnN0cmVhbQp4nCvkMlAwUDC1NNUzMVcoLU4tykvMTQEAIlAFCgplbmRzdHJlYW0KZW5kb2JqCjMgMCBvYmoKMjgKZW5kb2JqCjQgMCBvYmoKPDwvVHlwZS9QYWdlL01lZGlhQm94WzAgMCA2MTIgNzkyXS9SZXNvdXJjZXM8PC9Gb250PDwvRjEgNSAwIFI+Pj4+L0NvbnRlbnRzIDIgMCBSL1BhcmVudCAxIDAgUj4+CmVuZG9iago1IDAgb2JqCjw8L1R5cGUvRm9udC9TdWJ0eXBlL1R5cGUxL0Jhc2VGb250L0hlbHZldGljYT4+CmVuZG9iagoxIDAgb2JqCjw8L1R5cGUvUGFnZXMvS2lkc1s0IDAgUl0vQ291bnQgMT4+CmVuZG9iago2IDAgb2JqCjw8L1R5cGUvQ2F0YWxvZy9QYWdlcyAxIDAgUj4+CmVuZG9iagp4cmVmCjAgNwowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAyNjAgMDAwMDAgbiAKMDAwMDAwMDAxNSAwMDAwMCBuIAowMDAwMDAwMTA1IDAgMDAwMCBuIAowMDAwMDAwMTI0IDAgMDAwMCBuIAowMDAwMDAwMjIxIDAgMDAwMCBuIAowMDAwMDAwMzA5IDAgMDAwMCBuIAp0cmFpbGVyCjw8L1NpemUgNy9Sb290IDYgMCBSPj4Kc3RhcnR4cmVmCjM1OAolJUVPRgo=</value>
+            </observationMedia>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.3.1937.777.63.10.857" />
+          <code code="11487-6" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Consultation request (narrative)" />
+          <title>Richieste</title>
+          <text>
+            <paragraph>Richiesta ecografia addome completo. Richiesta visita cardiologica.</paragraph>
+          </text>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.3.1937.777.63.10.849" />
+          <code code="11506-3" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Progress note" />
+          <title>Diario Clinico Assistenziale</title>
+          <text>
+            <paragraph>07/05 ore 09:00 - Paziente in buone condizioni generali. Apiressia. PA stabile.</paragraph>
+          </text>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.3.1937.777.63.10.843" />
+          <code code="70007-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Restraint note" />
+          <title>Provvedimento Contenitivo e/o di Altra Natura</title>
+          <text>
+            <paragraph>Nessun provvedimento contenitivo applicato durante il ricovero.</paragraph>
+          </text>
+          <entry>
+            <observationMedia moodCode="EVN" classCode="OBS">
+              <templateId root="2.16.840.1.113883.3.1937.777.63.10.866" />
+              <value xsi:type="ED" mediaType="application/pdf" representation="B64">JVBERi0xLjQKJcOkw7zDtsOfCjIgMCBvYmoKPDwvTGVuZ3RoIDMgMCBSL0ZpbHRlci9GbGF0ZURlY29kZT4+CnN0cmVhbQp4nCvkMlAwUDC1NNUzMVcoLU4tykvMTQEAIlAFCgplbmRzdHJlYW0KZW5kb2JqCjMgMCBvYmoKMjgKZW5kb2JqCjQgMCBvYmoKPDwvVHlwZS9QYWdlL01lZGlhQm94WzAgMCA2MTIgNzkyXS9SZXNvdXJjZXM8PC9Gb250PDwvRjEgNSAwIFI+Pj4+L0NvbnRlbnRzIDIgMCBSL1BhcmVudCAxIDAgUj4+CmVuZG9iago1IDAgb2JqCjw8L1R5cGUvRm9udC9TdWJ0eXBlL1R5cGUxL0Jhc2VGb250L0hlbHZldGljYT4+CmVuZG9iagoxIDAgb2JqCjw8L1R5cGUvUGFnZXMvS2lkc1s0IDAgUl0vQ291bnQgMT4+CmVuZG9iago2IDAgb2JqCjw8L1R5cGUvQ2F0YWxvZy9QYWdlcyAxIDAgUj4+CmVuZG9iagp4cmVmCjAgNwowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAyNjAgMDAwMDAgbiAKMDAwMDAwMDAxNSAwMDAwMCBuIAowMDAwMDAwMTA1IDAgMDAwMCBuIAowMDAwMDAwMTI0IDAgMDAwMCBuIAowMDAwMDAwMjIxIDAgMDAwMCBuIAowMDAwMDAwMzA5IDAgMDAwMCBuIAp0cmFpbGVyCjw8L1NpemUgNy9Sb290IDYgMCBSPj4Kc3RhcnR4cmVmCjM1OAolJUVPRgo=</value>
+            </observationMedia>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.3.1937.777.63.10.841" />
+          <code code="34750-0" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Anesthesia records" />
+          <title>Documentazione Anestesiologica</title>
+          <text>
+            <paragraph>Valutazione anestesiologica pre-operatoria: paziente ASA II. Anestesia generale programmata.</paragraph>
+          </text>
+          <author typeCode="AUT" contextControlCode="OP">
+            <time value="20250508080000+0100" />
+            <assignedAuthor>
+              <id root="2.16.840.1.113883.2.9.4.3.2" extension="BNCLCU80A01H501Y" />
+              <assignedPerson>
+                <name>
+                  <given>Luca</given>
+                  <family>Neri</family>
+                </name>
+              </assignedPerson>
+            </assignedAuthor>
+          </author>
+          <entry>
+            <observationMedia moodCode="EVN" classCode="OBS">
+              <templateId root="2.16.840.1.113883.3.1937.777.63.10.866" />
+              <value xsi:type="ED" mediaType="application/pdf" representation="B64">JVBERi0xLjQKJcOkw7zDtsOfCjIgMCBvYmoKPDwvTGVuZ3RoIDMgMCBSL0ZpbHRlci9GbGF0ZURlY29kZT4+CnN0cmVhbQp4nCvkMlAwUDC1NNUzMVcoLU4tykvMTQEAIlAFCgplbmRzdHJlYW0KZW5kb2JqCjMgMCBvYmoKMjgKZW5kb2JqCjQgMCBvYmoKPDwvVHlwZS9QYWdlL01lZGlhQm94WzAgMCA2MTIgNzkyXS9SZXNvdXJjZXM8PC9Gb250PDwvRjEgNSAwIFI+Pj4+L0NvbnRlbnRzIDIgMCBSL1BhcmVudCAxIDAgUj4+CmVuZG9iago1IDAgb2JqCjw8L1R5cGUvRm9udC9TdWJ0eXBlL1R5cGUxL0Jhc2VGb250L0hlbHZldGljYT4+CmVuZG9iagoxIDAgb2JqCjw8L1R5cGUvUGFnZXMvS2lkc1s0IDAgUl0vQ291bnQgMT4+CmVuZG9iago2IDAgb2JqCjw8L1R5cGUvQ2F0YWxvZy9QYWdlcyAxIDAgUj4+CmVuZG9iagp4cmVmCjAgNwowMDAwMDAwMDAwIDY1NTM1IGYgCjAwMDAwMDAyNjAgMDAwMDAgbiAKMDAwMDAwMDAxNSAwMDAwMCBuIAowMDAwMDAwMTA1IDAgMDAwMCBuIAowMDAwMDAwMTI0IDAgMDAwMCBuIAowMDAwMDAwMjIxIDAgMDAwMCBuIAowMDAwMDAwMzA5IDAgMDAwMCBuIAp0cmFpbGVyCjw8L1NpemUgNy9Sb290IDYgMCBSPj4Kc3RhcnR4cmVmCjM1OAolJUVPRgo=</value>
+            </observationMedia>
+          </entry>
+        </section>
+      </component>
+      <component>
+        <section>
+          <templateId root="2.16.840.1.113883.3.1937.777.63.10.861" />
+          <code code="8650-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" displayName="Hospital discharge summary" />
+          <title>Dimissione</title>
+          <text>
+            <paragraph>Paziente dimessa in buone condizioni generali. Terapia domiciliare prescritta. Follow-up ambulatoriale programmato.</paragraph>
+          </text>
+          <author typeCode="AUT" contextControlCode="OP">
+            <time value="20250509100000+0100" />
+            <assignedAuthor>
+              <id root="2.16.840.1.113883.2.9.4.3.2" extension="PROVAX00X00X000Y" />
+              <assignedPerson>
+                <name>
+                  <given>Mario</given>
+                  <family>Bianchi</family>
+                </name>
+              </assignedPerson>
+            </assignedAuthor>
+          </author>
+        </section>
+      </component>
+    </structuredBody>
+  </component>
+</ClinicalDocument>
+
+endstream
+endobj
+15 0 obj
+<<
+/Length 273
+/Type /ObjStm
+/N 10
+/Filter /FlateDecode
+/First 61
+>>
+stream
+xúUQMk1¸+sl5˚í˝pAï›Ki)*Ù∞xàõ 7+F¡ˆ◊˜e™Ú»LÊÕ˚àDÖT"©(ÀëÉ
+B	ô1õ@N	DP§@*õÇR®Ba6€üìÖ¯“ ﬁù	h[Æ±ÉXıWa>VB|X„Ù≤ø°I&	‚…Ir, wQv∂ú++±∂°øû[.ëéƒ™˜~(<®ô‰‚IÓpl`PâÕu`$	b©É_∂Æ≥·m›w⁄CTæÌçÛàoÁ>∏b¥¨∫Ω5∆ö⁄π9^’Ω⁄ßf4/≠—ì[w|ç˜Ú‘ML<Ÿño∏KEU«M?L¬üÛ 7Ó◊ÇÚî5L¸/Îvˆ
+endstream
+endobj
+16 0 obj
+<<
+/Length 50
+/Root 1 0 R
+/ID [<EF333072F1E517BC5F8F20707761F633> <EF333072F1E517BC5F8F20707761F633>]
+/Type /XRef
+/Size 17
+/Index [0 8 9 7]
+/W [1 2 1]
+/Filter /FlateDecode
+>>
+stream
+xúc``¯œ»¿œ¿¡å@ÃƒÃ@Ã¬»cb6 fbF∆(ê'£„[ d¥Œ
+endstream
+endobj
+startxref
+17255
+%%EOF

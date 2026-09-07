@@ -1,4 +1,12 @@
 # Accreditamento FSE 2.0
+## -- Comunicazione del 14/07/2026 --
+
+Si informa che il presente repository è in dismissione e che in sua sostituzione verrà reso disponibile quanto prima un nuovo repository dedicato alle attività di accreditamento. Per aggiornamenti si rimanda al canale "fse" di Slack. 
+
+Eventuali modifiche dovranno essere apportate direttamente sul nuovo repository, non appena sarà disponibile, attraverso l'apertura di una nuova Pull Request.
+ 
+##
+ 
 Questo repository raccoglie i risultati dei test effettuati per l'accreditamento dei software con il sistema FSE 2.0
 
 - [Accreditamento FSE 2.0](#accreditamento-fse-20)
